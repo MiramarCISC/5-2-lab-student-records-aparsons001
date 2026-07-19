@@ -1,5 +1,6 @@
 #include "student_records.hpp"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -9,7 +10,7 @@ int main() {
         {"B456", "Maya", 84.0},
         {"C789", "Jordan", 76.5}
     };
-
+printStudents(students, 3);
     string targetId;
 
     cout << "Student Records" << endl;
