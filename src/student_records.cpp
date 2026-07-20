@@ -72,7 +72,7 @@ double findHighestScore(const Student students[], int size) {
 
 int findStudentById(const Student students[], int size, const std::string& targetId) {
     if (students == nullptr || size <= 0) {
-        return -1;
+        return -1; //nullptr check to ensure student array is not empty and size is greater than 0
     }
     for (int i = 0; i < size; i++){
         if (students[i].id == targetId){ //compares student array to targetId

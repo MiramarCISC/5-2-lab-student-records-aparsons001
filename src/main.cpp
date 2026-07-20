@@ -11,7 +11,7 @@ int main() {
         {"C789", "Jordan", 76.5}
     };
 printStudents(students, 3);
-    std::string targetId;
+    std::string targetId; //updated targetId to std::string to match function signature
 
     cout << "Student Records" << endl;
     cout << endl;
