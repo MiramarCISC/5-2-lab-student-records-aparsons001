@@ -11,7 +11,7 @@ int main() {
         {"C789", "Jordan", 76.5}
     };
 printStudents(students, 3);
-    string targetId;
+    std::string targetId;
 
     cout << "Student Records" << endl;
     cout << endl;

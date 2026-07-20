@@ -27,7 +27,7 @@ void printStudents(const Student students[], int size);
 // Required calculation and search functions
 double calculateAverageScore(const Student students[], int size);
 double findHighestScore(const Student students[], int size);
-int findStudentById(const Student students[], int size, std::string targetId);
+int findStudentById(const Student students[], int size, const std::string& targetId);
 char determineLetterGrade(double score);
 
 #endif
