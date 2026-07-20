@@ -1,5 +1,6 @@
 #include "student_records.hpp"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -9,8 +10,8 @@ int main() {
         {"B456", "Maya", 84.0},
         {"C789", "Jordan", 76.5}
     };
-
-    string targetId;
+printStudents(students, 3);
+    std::string targetId; //updated targetId to std::string to match function signature
 
     cout << "Student Records" << endl;
     cout << endl;
